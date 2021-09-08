@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("images/bg.jpg") no-repeat fixed center ;
+    background-size:cover;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.app-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 33vw;
+    height: 90vh;
+    color: #003049;
+    margin: 45px auto;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 20px;
+    
+}
+
+.app-main > * {
+    margin: 10px auto;
+}
+
+
+.searchInputBox{
+    width: 30vw;
+}
+
+.input-box {
+   width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    color: #003049;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+
+
+
+.buton{
+    width: 30vw;
+}
+
+.btn{
+    width: 100%;
+}
+
+
+.weather-body {
+    width: 30vw;
+    height: 90vh;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6); 
+}
+
+.location-details {
+    font-weight: 700;
+}
+
+.city{
+    font-weight: bold;
+    font-size:3.2rem;
+}
+
+.date{
+    font-size: 1.5rem;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 5.4rem;
+    font-weight: 700;
+    color: #e63946;
+    margin: 10px auto;
+  text-shadow:0 10px 10px rgba(0, 0, 0,0.7);
+}
+
+.icon_div{
+    text-align: center;
+    padding: 5px;
+}
+
+.icon_div .weather{
+   font-size: 1.9rem;
+   font-weight: 700;
+   
+}
+
+.min-max{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+     .app-main{
+         width: 100vw;
+         height: 80vh;
+         padding: 2px;
+         margin: 85px auto;
+     }
+     .searchInputBox,.buton,.weather-body{
+        width: 90vw;
+    }
+    
+    .input-box{
+        font-size: 1.5rem;
+    }
+    
+    .city{
+        font-size:2.8rem;
+    }
+
+    .date{
+        font-size: 1.4rem;
+    }
+
+    #bt{
+        font-size: 1.3rem;
+    }
+
+
+    .weather-body{
+        height: 60vh;
+    }
+
+    
+  }
