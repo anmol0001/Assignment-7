@@ -117,6 +117,7 @@ body {
          width: 100vw;
          height: 80vh;
          padding: 2px;
+         background:none;
          margin: 85px auto;
      }
      .searchInputBox,.buton,.weather-body{
