@@ -1,7 +1,7 @@
 // api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}
 
 const weatherApi = {
-    key: "166e8499efaf1f817fb7208702766f39",     //change this...
+    key: "Write_Your_Own_Api_Key",     //change this...
     baseUrl: "https://api.openweathermap.org/data/2.5/weather", 
 }
 
